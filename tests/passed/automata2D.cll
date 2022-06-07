@@ -1,0 +1,31 @@
+/TEMPLATE
+
+id :: Automata2D
+| rule : int list => int
+| weight
+	; int list
+	; int list
+	; int list/
+
+
+gameOfLife::Automata2D
+| rule : [3,12,13] => 1
+| weight
+	; [1,1,1]
+	; [1,10,1]
+	; [1,1,1]
+	
+labyrinth::Automata2D
+| rule : [3,12,13,14,15] => 1
+| weight
+	; [1,1,1]
+	; [1,10,1]
+	; [1,1,1]
+	
+rule30 :: Automata2D
+| rule : [100,11,10,1,1000,1100,1011,1010,1001] => 1
+| weight
+	; [100,10,1]
+	; [0,1000,0]
+	; [0,0,0]
+

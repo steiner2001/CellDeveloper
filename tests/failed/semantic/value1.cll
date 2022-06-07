@@ -1,0 +1,4 @@
+test :: Turing
+| start : L
+| accept : 1
+| rules : [[['x'], 0] => [['x'], [S], 1]]

@@ -1,0 +1,31 @@
+/CellDeveloper v1.0.0.9
+
+Project: models
+Owner: Steiner Ákos - CWCADD
+Date: 2022.05.13
+/
+
+gameOfLife :: Automata2D
+| rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+sierpinski :: Automata1D
+| rule
+	:  [[1,0,0], [0,0,1], [0,1,1]] => 1
+
+langtonsAnt :: Turmite
+| start : 1
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+
+duplicate :: Turing # duplicates the input on output tape
+| start : 0
+| accept : 2
+| rules
+	; [['x', _], 0] => [['x', 'x'], [S, R], 1]
+	; [['x', _], 1] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 2]

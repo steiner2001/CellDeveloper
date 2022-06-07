@@ -1,0 +1,28 @@
+/with classic syntax
+declare a list as a value/
+
+gol1 :: Automata2D
+| rule : [3,12,13] => 1
+| weight: 
+	[[1, 1, 1], [1, 10, 1], [1, 1, 1]]
+
+/with classic syntax
+using \n to create a matrix-like list/
+
+gol2 :: Automata2D
+| rule : [3,12,13] => 1
+| weight: 
+	[[1, 1, 1],
+	[1, 10, 1],
+	[1, 1, 1]]
+
+/with syntactic sugar
+using ; instead of :/
+
+gol3 :: Automata2D
+| rule : [3,12,13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+

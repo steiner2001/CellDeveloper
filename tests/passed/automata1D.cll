@@ -1,0 +1,35 @@
+/TEMPLATE
+
+id : Automata1D
+| rule : list => int/
+
+
+rule50 :: Automata1D
+| rule
+	: [[1,1,0], [1,0,0], [0,1,1], [0,0,1]] => 1
+
+rule126 :: Automata1D
+| rule
+	: [[1,1,1], [0,0,0]] => 0
+		
+rule150 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,0], [0,1,0], [0,0,1]] => 1
+	
+rule190 :: Automata1D
+| rule
+	: [[1,1,0], [0,0,0]] => 0
+	
+rule220 :: Automata1D
+| rule
+	: [[1,0,1], [0,0,1], [0,0,0]] => 0
+	
+	
+
+
+
+
+
+
+
+

@@ -1,0 +1,255 @@
+gameOfLife :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+	
+gameOfLife1 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal1 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing1 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt1 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife2 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal2 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing2 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt2 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife3 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal3 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing3 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt3 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife4 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal4 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing4 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt4 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife5 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal5 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing5 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt5 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife6 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal6 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing6 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt6 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife7 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal7 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing7 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt7 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife8 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal8 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing8 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt8 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+gameOfLife9 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal9 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing9 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt9 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
+	
+gameOfLife0 :: Automata2D
+|rule : [3, 12, 13] => 1
+| weight
+	; [1, 1, 1]
+	; [1, 10, 1]
+	; [1, 1, 1]
+
+pascal0 :: Automata1D
+| rule
+	: [[1,1,1], [1,0,1], [0,1,0], [0,0,0]] => 0
+
+turing0 :: Turing
+| start : 0
+| accept : 1
+| rules
+	; [['x', _], 0] => [[_, 'x'], [R, R], 0]
+	; [[_, _], 0] => [[_, _], [S, S], 1]
+
+langtonsAnt0 :: Turmite
+| start : 0
+| rules
+	; 0 => [1, R]
+	; 1 => [0, L]
